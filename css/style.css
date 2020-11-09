@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-top: .6rem;
+    padding-right: 1rem;
+    padding-bottom: .6rem;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 4px 15px 1px rgba(166,164,166,1);
+    -moz-box-shadow: 0px 4px 15px 1px rgba(166,164,166,1);
+    box-shadow: 0px 4px 15px 1px rgba(166,164,166,1);
+}
+.header-brand{
+    font-size: 2rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    transition: .5s;
+}
+.navbar ul li:hover{
+    background-color: #E2E2E2;
+}
+.navbar ul li a{
+    line-height: 2rem;
+    text-decoration: none;
+    color: #0c2731;
+    transition: .5s;
+}
+.navbar ul li a:hover{
+    background-color: #E2E2E2;
+}
+.jumbotron{
+    padding: 5rem;
+    width: 100vw;
+    height: 75vh;
+    background-color: #0C2731;
+}
+.jumbotron h3, .jumbotron p{
+    color: #E2E2E2;
+}
+.jumbotron h3{
+    font-size: 4rem;
+}
+.jumbotron p{
+    margin-top: 1rem;
+}
+#skills{
+    width: 100vw;
+    height: 70vh;
+}
+#skills h3{
+    font-size: 5rem;
+    color: #0C2731;
+    text-align: center;
+}
